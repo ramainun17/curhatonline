@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* landingpage */
+body {
+    background-image: url('https://tailwindui.com/img/beams-components.png');
+    background-position: calc(50% + 190px) -50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    padding: 5px;
+    /* padding: 35px; */
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0 ,0.1);
+}
+
+
+.text-nav {
+    font-family: 'lazy_dog';
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-nav {
+    margin-left: 400px;
+    width: 900px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.link-nav {
+    font-size: 400;
+    color: #000000;
+}
+
+.link-nav:hover {
+    color: #FF99C8;
+}
+
+.icon{
+    height: 10px;
+}
+.utama-jumbo {
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+.jumbotron {
+    margin-top: 220px;
+}
+
+.des-utama {
+    margin-bottom: 30px;
+}
+
+.button-log {
+    background-color: #ff99c8;
+    padding: 8px 30px;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: -4px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0 ,0.1);
+    
+}
+
+.button-log:hover {
+    color: white;
+    background-color: #A9DEF9;
+    transition: 0.4s;
+    box-shadow: 0 0 5px #A9DEF9,
+        0 0 25px #A9DEF9,
+        0 0 50px #A9DEF9,
+        0 0 100px #A9DEF9;
+}
+
+.button-sign {
+    background-color: #ff99c8;
+    padding: 8px 30px;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: -4px;
+    margin-left: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0 ,0.1);
+}
+
+.button-sign:hover {
+    color: white;
+    background-color: #A9DEF9;
+    transition: 0.4s;
+    box-shadow: 0 0 5px #A9DEF9,
+        0 0 25px #A9DEF9,
+        0 0 50px #A9DEF9,
+        0 0 100px #A9DEF9;
+}
+
+.btn-start{
+    padding: 10px 30px;
+    background-color: #FF99C8;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0 ,0.1);
+}
+
+.btn-start:hover{
+    color: white;
+    background-color: #A9DEF9;
+    transition: 0.4s;
+    box-shadow: 0 0 5px #A9DEF9,
+        0 0 25px #A9DEF9,
+        0 0 50px #A9DEF9,
+        0 0 100px #A9DEF9;
+}
+
+.img-utama {
+    width: 100%;
+    margin-top: -100px;
+    /* transform: translate(-80px, -80px); */
+    /* opacity: 0;
+    transition: all ease 1s; */
+    filter: drop-shadow( 10px 10px 6px rgba(0, 0, 0, 0.275));
+    /* display: none; */
+}
+
+
+.bg-mid{
+    background-color: #000000;
+    padding: 50px;
+}
+
+.t-mid{
+    color: white;
+    font-weight: 600;
+    text-decoration: underline #FF99C8;
+    text-underline-position: under;
+}
+.t-online{
+    color: #FF99C8;
+}
+
+.d-mid{
+    color: white;
+    font-weight: 400;
+}
+
+.t-fitur{
+    font-weight: 600;
+}
+.j-fitur{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.card-fitur{
+    border: #adadad 0.1 solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0 ,0.1);
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+}
+
+.card-fitur:hover{
+    box-shadow: 0px 0px 4px 6px rgb(255, 153, 200 ,0.5);
+}
+
+.isi-fitur{
+    font-weight: 700;
+}
+
+/* login page */
+
+.log-card {
+    margin-top: 800vh;
+}
+
+.card-log {
+    align-items: center;
+    background-color: #FF99C8;
+    padding: 80px 40px 10px 40px;
+    width: 420px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.frm-c {
+    width: 340px;
+}
+
+.btn-log {
+    background-color: #E4C1F9;
+    padding: 10px 20px;
+    float: right;
+    color: #000000;
+    font-weight: 600;
+    width: 107px;
+    border-radius: 22px;
+    text-align: center;
+}
+
+.btn-log:hover {
+    color: white;
+    background-color: #A9DEF9;
+    transition: 0.4s;
+    box-shadow: 0 0 0px #A9DEF9,
+        0 0 10px #A9DEF9,
+        0 0 15px #A9DEF9,
+        0 0 25px #A9DEF9;
+}
+
+.log-text {
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    font-size: 26px;
+}

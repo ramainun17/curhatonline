@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+/* landingpage */
+body {
+    background-image: url('https://tailwindui.com/img/beams-components.png');
+    background-position: calc(50% + 190px) -50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    padding: 5px;
+    /* padding: 35px; */
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0 ,0.1);
+}
+
+
+.text-nav {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list-nav {
+    margin-left: 400px;
+    width: 900px;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.link-nav {
+    font-size: 400;
+    color: #000000;
+    text-decoration: none;
+}
+
+.link-nav:hover {
+    color: #FF99C8;
+}
+
+.details{
+    width: 1px;
+    height: 1px;
+}
+
+.icon{
+    height: 10px;
+}
+.utama-jumbo {
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+.jumbotron {
+    margin-top: 220px;
+}
+
+.des-utama {
+    margin-bottom: 30px;
+}
+
+.button-log {
+    background-color: #ff99c8;
+    padding: 8px 30px;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: -4px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0 ,0.1);
+    text-decoration: none;
+}
+
+.button-log:hover {
+    color: white;
+    background-color: #A9DEF9;
+    transition: 0.4s;
+    box-shadow: 0 0 5px #A9DEF9,
+        0 0 25px #A9DEF9,
+        0 0 50px #A9DEF9,
+        0 0 100px #A9DEF9;
+}
+
+.button-sign {
+    background-color: #ff99c8;
+    padding: 8px 30px;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: -4px;
+    margin-left: -40px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0 ,0.1);
+    text-decoration: none;
+}
+
+.button-sign:hover {
+    color: white;
+    background-color: #A9DEF9;
+    transition: 0.4s;
+    box-shadow: 0 0 5px #A9DEF9,
+        0 0 25px #A9DEF9,
+        0 0 50px #A9DEF9,
+        0 0 100px #A9DEF9;
+}
+
+.btn-start{
+    padding: 10px 30px;
+    background-color: #FF99C8;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0 ,0.1);
+}
+
+.btn-start:hover{
+    color: white;
+    background-color: #A9DEF9;
+    transition: 0.4s;
+    box-shadow: 0 0 5px #A9DEF9,
+        0 0 25px #A9DEF9,
+        0 0 50px #A9DEF9,
+        0 0 100px #A9DEF9;
+}
+
+.img-utama {
+    width: 100%;
+    margin-top: -100px;
+    /* transform: translate(-80px, -80px); */
+    /* opacity: 0;
+    transition: all ease 1s; */
+    filter: drop-shadow( 10px 10px 6px rgba(0, 0, 0, 0.275));
+    /* display: none; */
+}
+
+
+.bg-mid{
+    background-color: #000000;
+    padding: 50px;
+}
+
+.t-mid{
+    color: white;
+    font-weight: 600;
+    text-decoration: underline #FF99C8;
+    text-underline-position: under;
+}
+.t-online{
+    color: #FF99C8;
+}
+
+.d-mid{
+    color: white;
+    font-weight: 400;
+}
+
+.t-fitur{
+    font-weight: 600;
+}
+.j-fitur{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.card-fitur{
+    border: #adadad 0.1 solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0 ,0.1);
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+}
+
+.card-fitur:hover{
+    box-shadow: 0px 0px 4px 6px rgb(255, 153, 200 ,0.5);
+}
+
+.isi-fitur{
+    font-weight: 700;
+}
+
+
+/* Caption */
+.card-capt{
+    padding-top: 15px;
+    margin-left:60px;
+    border-bottom: 2px solid red;
+    border-color:#FF99C8;
+    text-align: center;
+    box-shadow: 0px 5px 2px rgba(0, 0, 0 ,0.1);
+}
+
+.card-capt:hover{
+    color: #ff99c8;
+    
+}
+
+.card-teks{
+    font-family:'Plus Jakarta Sans', sans-serif !important;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card-teks:hover{
+    color: white;
+    background-color: #FF99C8;
+    transition: 0.3s;
+    box-shadow:#A9DEF9
+}
+
+h1{
+    font-family:'Plus Jakarta Sans', sans-serif !important; 
+}
