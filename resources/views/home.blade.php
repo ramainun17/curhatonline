@@ -63,7 +63,7 @@
                 <h5 class="head-jumbo">Selamat Datang</h5>
                 <h1 class="utama-jumbo">Datang Sebagai Rumah Pulang Membawa Amanah</h1>
                 <p class="des-utama">Platform Curhat Hanya Untukmu , Siapa lagi ? Mari Curhat Bersama Ku</p>
-                <a class="btn-start" href="#fitur">Let's Start</a>
+                <a class="btn-start" role="button" href="#fitur" style="text-decoration: none;">Let's Start</a>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <img class="img-utama all-utama" src="{{url('css/img/LovingDoodle.svg')}}" alt="">

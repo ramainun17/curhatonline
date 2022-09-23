@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
 
 
-body{
+.body{
     background-color: #E4C1F9;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     padding: 0;
@@ -67,7 +67,7 @@ body{
     font-weight: 700;
     color: white;
     text-align: center;
-    margin-top: -40px;
+    margin-top: -10px;
     margin-bottom: 40px;
     font-size: 26px;
 }
@@ -109,4 +109,24 @@ a{
 }
 .link-nav:hover{
     color: #404040;
+}
+
+.btn-log{
+    background-color: #E4C1F9;
+    padding: 10px 20px;
+    float: right;
+    font-weight: 600;
+    width: 107px;
+    border-radius: 22px;
+    text-align: center;
+    border: none;
+}
+.btn-log:hover{
+    color: white;
+    background-color: #A9DEF9;
+    transition: 0.2s;
+    box-shadow: 0 0 0px #A9DEF9,
+                0 0 10px #A9DEF9,
+                0 0 15px #A9DEF9,
+                0 0 25px #A9DEF9;
 }

@@ -2,7 +2,7 @@
 
 
 
-body{
+.body{
     background-color: #E4C1F9;
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     padding: 0;
@@ -10,10 +10,13 @@ body{
 }
 
 .log-card{
-    margin-top: 70px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.card-log{
+.card-log{ 
     align-items: center;
     background-color: #FF99C8;
     padding: 30px 40px 10px 40px;
@@ -39,16 +42,16 @@ body{
     background-color: #E4C1F9;
     padding: 10px 20px;
     float: right;
-    color: #000000;
     font-weight: 600;
     width: 107px;
     border-radius: 22px;
     text-align: center;
+    border: none;
 }
 .btn-log:hover{
     color: white;
     background-color: #A9DEF9;
-    transition: 0.4s;
+    transition: 0.2s;
     box-shadow: 0 0 0px #A9DEF9,
                 0 0 10px #A9DEF9,
                 0 0 15px #A9DEF9,
