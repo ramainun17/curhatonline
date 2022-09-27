@@ -60,9 +60,9 @@
     <div class="container jumbotron">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 text-left all-utama text-utama">
-                <h5 class="head-jumbo">Selamat Datang</h5>
-                <h1 class="utama-jumbo">Datang Sebagai Rumah Pulang Membawa Amanah</h1>
-                <p class="des-utama">Platform Curhat Hanya Untukmu , Siapa lagi ? Mari Curhat Bersama Ku</p>
+                <h4 class="head-jumbo">Selamat datang</h4>
+                <h1 class="utama-jumbo">Datang sebagai rumah pulang membawa amanah</h1>
+                <p class="des-utama">Platform curhat hanya untukmu, siapa lagi? mari curhat bersama ku</p>
                 <a class="btn-start" role="button" href="#fitur" style="text-decoration: none;">Let's Start</a>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12">
@@ -81,7 +81,7 @@
                     <h3 class="t-mid">WHAT IS CURHATO<span class="t-online">?</span></h3>
                 </div>
                 <div class="col-9">
-                    <p class="mt-5 d-mid">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, veniam quaerat saepe magnam officia quod vitae distinctio exercitationem enim mollitia?</p>
+                    <p class="mt-5 d-mid">Curhato adalah sebuah media bagi para remaja yang membutuhkan teman bicara untuk membicarakan permasalahannya dan sebagai perantara untuk kalangan remaja dengan orang yang berpengalaman</p>
                 </div>
             </div>
 
